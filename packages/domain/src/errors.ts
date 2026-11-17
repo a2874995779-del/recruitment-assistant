@@ -1,0 +1,6 @@
+export class AppError extends Error {
+  constructor(public code: string, message: string, public statusCode = 400) { super(message); }
+}
+export function requireCondition(condition: unknown, code: string, message: string, statusCode = 400): asserts condition {
+  if (!condition) throw new AppError(code, message, statusCode);
+}

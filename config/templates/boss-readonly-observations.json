@@ -1,0 +1,94 @@
+[
+  {
+    "external_job_id": "EXAMPLELIST100000",
+    "source_instance_id": "synthetic-example:boss",
+    "source_url": "https://www.zhipin.com/job_detail/EXAMPLELIST100000.html",
+    "platform": "boss",
+    "mode": "IMPORT",
+    "title": "示例 Java 开发岗位",
+    "company_name": "虚构示例企业1",
+    "locations": [
+      "示例城市"
+    ],
+    "education": "本科",
+    "salary_raw": "140-280元/天",
+    "salary_min": 140,
+    "salary_max": 280,
+    "currency": "CNY",
+    "salary_period": "DAY",
+    "salary_months": null,
+    "experience_raw": null,
+    "experience_range": null,
+    "status": "UNVERIFIED",
+    "apply_target": {
+      "kind": "UNKNOWN",
+      "url": "https://www.zhipin.com/job_detail/EXAMPLELIST100000.html"
+    },
+    "extra": {
+      "capture_method": "SYNTHETIC_FIXTURE",
+      "synthetic": true,
+      "automatic_collection": false,
+      "note": "虚构测试数据，链接不代表真实岗位。"
+    }
+  },
+  {
+    "external_job_id": "EXAMPLELIST200000",
+    "source_instance_id": "synthetic-example:boss",
+    "source_url": "https://www.zhipin.com/job_detail/EXAMPLELIST200000.html",
+    "platform": "boss",
+    "mode": "IMPORT",
+    "title": "示例后端开发岗位",
+    "company_name": "虚构示例企业2",
+    "locations": [
+      "示例城市"
+    ],
+    "education": "本科",
+    "salary_raw": "7-12K",
+    "salary_min": null,
+    "salary_max": null,
+    "currency": null,
+    "salary_period": null,
+    "salary_months": null,
+    "status": "UNVERIFIED",
+    "apply_target": {
+      "kind": "UNKNOWN",
+      "url": "https://www.zhipin.com/job_detail/EXAMPLELIST200000.html"
+    },
+    "extra": {
+      "capture_method": "SYNTHETIC_FIXTURE",
+      "synthetic": true,
+      "automatic_collection": false,
+      "note": "虚构测试数据，链接不代表真实岗位。"
+    }
+  },
+  {
+    "external_job_id": "EXAMPLELIST300000",
+    "source_instance_id": "synthetic-example:boss",
+    "source_url": "https://www.zhipin.com/job_detail/EXAMPLELIST300000.html",
+    "platform": "boss",
+    "mode": "IMPORT",
+    "title": "示例软件开发岗位",
+    "company_name": "虚构示例企业3",
+    "locations": [
+      "示例城市"
+    ],
+    "education": "大专",
+    "salary_raw": "5-10K·13薪",
+    "salary_min": null,
+    "salary_max": null,
+    "currency": null,
+    "salary_period": null,
+    "salary_months": 13,
+    "status": "UNVERIFIED",
+    "apply_target": {
+      "kind": "UNKNOWN",
+      "url": "https://www.zhipin.com/job_detail/EXAMPLELIST300000.html"
+    },
+    "extra": {
+      "capture_method": "SYNTHETIC_FIXTURE",
+      "synthetic": true,
+      "automatic_collection": false,
+      "note": "虚构测试数据，链接不代表真实岗位。"
+    }
+  }
+]

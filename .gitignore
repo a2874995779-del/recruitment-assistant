@@ -1,0 +1,43 @@
+# Dependencies and generated output
+node_modules/
+dist/
+releases/
+coverage/
+.ui-backup/
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+.npmrc
+*.pem
+*.key
+api-token
+# Personal runtime data (never commit)
+runtime/
+data/
+database/
+*.sqlite*
+*.db
+*.db-*
+sessions/
+resumes/
+logs/
+*.log
+evidence/
+backups/
+mock-external/
+RecruitmentAssistant*/
+# Browser profiles and local storage
+Cookies*
+Local Storage/
+Session Storage/
+IndexedDB/
+Cache/
+Code Cache/
+GPUCache/
+# Generated screenshots and local editor files
+docs/qa/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

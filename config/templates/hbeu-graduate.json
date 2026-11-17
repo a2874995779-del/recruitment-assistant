@@ -1,0 +1,37 @@
+{
+  "template_version": 1,
+  "name": "91wllm 公开分站示例模板",
+  "account": {
+    "platform": "wllm91",
+    "mode": "REAL",
+    "nickname": "示例求职账号",
+    "station": {
+      "school_id": "hbeu",
+      "tenant_id": null,
+      "base_url": "https://hbeu.91wllm.cn",
+      "auth_strategy": "manual",
+      "route_overrides": {}
+    }
+  },
+  "profile": {
+    "education": null,
+    "major": null,
+    "graduation_year": null,
+    "experience_years": null,
+    "job_seeker_type": "GRADUATE",
+    "preferred_cities": []
+  },
+  "public_read": {
+    "status": "LIMITED",
+    "manual_only": true,
+    "cooldown_seconds": 5,
+    "sample_url": "https://hbeu.91wllm.cn/teachin/view/id/252013",
+    "company_jobs_example": "https://hbeu.91wllm.cn/company/view/id/442367/tab/1",
+    "job_detail_example": "https://hbeu.91wllm.cn/job/view/id/2387095"
+  },
+  "notes": [
+    "公开分站适配示例，不代表任何使用者的学校、学历或毕业身份。",
+    "个人档案字段留空，运行时由使用者自行填写。",
+    "公开读取不代表账号已登录或申请能力已验证。"
+  ]
+}

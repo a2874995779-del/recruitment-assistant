@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "timezone": "Asia/Shanghai",
+  "cloud_sync": false,
+  "automatic_enqueue": false,
+  "max_batch_size": 50,
+  "daily_action_limit": 30,
+  "scheduler_poll_ms": 1000,
+  "lease_ms": 30000,
+  "message_sync_seconds": 120,
+  "job_sync_seconds": 900,
+  "notification_body_preview": false
+}
